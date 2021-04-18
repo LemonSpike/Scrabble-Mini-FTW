@@ -11,6 +11,13 @@
 		FD6DA0D92623191900781A5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6DA0D82623191900781A5A /* ContentView.swift */; };
 		FD6DA0DB2623192000781A5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD6DA0DA2623192000781A5A /* Assets.xcassets */; };
 		FD6DA0DE2623192000781A5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD6DA0DD2623192000781A5A /* Preview Assets.xcassets */; };
+		FD6DA0F026231E1600781A5A /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = FD6DA0E82623198600781A5A /* start.txt */; };
+		FD6DA0FA2623249800781A5A /* ReadFromBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6DA0F92623249800781A5A /* ReadFromBundle.swift */; };
+		FD6DA0FD262327DE00781A5A /* WorkingWithStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6DA0FC262327DE00781A5A /* WorkingWithStrings.swift */; };
+		FD6DA1002623292B00781A5A /* AddingToAListOfWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6DA0FF2623292B00781A5A /* AddingToAListOfWords.swift */; };
+		FD6DA10326232B4F00781A5A /* AppLaunchesCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6DA10226232B4F00781A5A /* AppLaunchesCode.swift */; };
+		FD6DA1062623342C00781A5A /* ValidatingWordsWithChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6DA1052623342C00781A5A /* ValidatingWordsWithChecker.swift */; };
+		FD6DA1092623420400781A5A /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6DA1082623420100781A5A /* Challenge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +28,13 @@
 		FD6DA0DD2623192000781A5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FD6DA0DF2623192000781A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD6DA0E02623192000781A5A /* WordScramble.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WordScramble.entitlements; sourceTree = "<group>"; };
+		FD6DA0E82623198600781A5A /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
+		FD6DA0F92623249800781A5A /* ReadFromBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadFromBundle.swift; sourceTree = "<group>"; };
+		FD6DA0FC262327DE00781A5A /* WorkingWithStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingWithStrings.swift; sourceTree = "<group>"; };
+		FD6DA0FF2623292B00781A5A /* AddingToAListOfWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingToAListOfWords.swift; sourceTree = "<group>"; };
+		FD6DA10226232B4F00781A5A /* AppLaunchesCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLaunchesCode.swift; sourceTree = "<group>"; };
+		FD6DA1052623342C00781A5A /* ValidatingWordsWithChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatingWordsWithChecker.swift; sourceTree = "<group>"; };
+		FD6DA1082623420100781A5A /* Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +69,13 @@
 			children = (
 				FD6DA0D62623191900781A5A /* WordScrambleApp.swift */,
 				FD6DA0D82623191900781A5A /* ContentView.swift */,
+				FD6DA0F92623249800781A5A /* ReadFromBundle.swift */,
+				FD6DA0FC262327DE00781A5A /* WorkingWithStrings.swift */,
+				FD6DA0FF2623292B00781A5A /* AddingToAListOfWords.swift */,
+				FD6DA10226232B4F00781A5A /* AppLaunchesCode.swift */,
+				FD6DA1052623342C00781A5A /* ValidatingWordsWithChecker.swift */,
+				FD6DA1082623420100781A5A /* Challenge.swift */,
+				FD6DA0E82623198600781A5A /* start.txt */,
 				FD6DA0DA2623192000781A5A /* Assets.xcassets */,
 				FD6DA0DF2623192000781A5A /* Info.plist */,
 				FD6DA0E02623192000781A5A /* WordScramble.entitlements */,
@@ -129,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD6DA0DE2623192000781A5A /* Preview Assets.xcassets in Resources */,
+				FD6DA0F026231E1600781A5A /* start.txt in Resources */,
 				FD6DA0DB2623192000781A5A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,8 +162,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD6DA1062623342C00781A5A /* ValidatingWordsWithChecker.swift in Sources */,
+				FD6DA0FA2623249800781A5A /* ReadFromBundle.swift in Sources */,
 				FD6DA0D92623191900781A5A /* ContentView.swift in Sources */,
+				FD6DA0FD262327DE00781A5A /* WorkingWithStrings.swift in Sources */,
+				FD6DA10326232B4F00781A5A /* AppLaunchesCode.swift in Sources */,
+				FD6DA1092623420400781A5A /* Challenge.swift in Sources */,
 				FD6DA0D72623191900781A5A /* WordScrambleApp.swift in Sources */,
+				FD6DA1002623292B00781A5A /* AddingToAListOfWords.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,48 +294,60 @@
 		FD6DA0E42623192000781A5A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = WordScramble/WordScramble.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"WordScramble/Preview Content\"";
 				DEVELOPMENT_TEAM = C3BX32XR8J;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = WordScramble/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kasprasolutions.WordScramble;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "";
 			};
 			name = Debug;
 		};
 		FD6DA0E52623192000781A5A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = WordScramble/WordScramble.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"WordScramble/Preview Content\"";
 				DEVELOPMENT_TEAM = C3BX32XR8J;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = WordScramble/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kasprasolutions.WordScramble;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "";
 			};
 			name = Release;
 		};
